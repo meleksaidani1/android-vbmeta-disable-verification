@@ -12,14 +12,14 @@ android_vbmeta_disable_verification.py <vbmeta-image> [<vbmeta-output-image>]
 ```
 
 Example:
-```
+```bash
 $ python3 ./android_vbmeta_disable_verification.py vbmeta.img 
 Patched vbmeta image was saved to the file 'vbmeta.patched.img'.
 Successfully disabled verification on the provided vbmeta image.
 ```
 
 You can also use android_vbmeta_disable_verification.py as a python module:
-```
+```python
 import android_vbmeta_disable_verification as vbm
 vbm.patch_vbmeta_file('vbmeta.img')
 ```
