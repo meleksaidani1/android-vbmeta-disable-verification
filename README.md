@@ -1,6 +1,7 @@
 # android-vbmeta-disable-verification
 
-Patch Android vbmeta image and disable verification flags inside.
+Patch Android vbmeta image and disable verification flags inside.  
+Based on [vbmeta-disable-verify](https://github.com/libxzr/vbmeta-disable-verification) by LibXZR <i@xzr.moe>
 
 ## Usage
 
